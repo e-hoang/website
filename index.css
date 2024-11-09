@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    color:black;
+}
+
+body{
+    background-color: beige;
+    position: relative;
+    height: 100%;
+    margin: 2%;
+    /* font-family: "avenir", Arial, Helvetica, sans-serif; */
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+h1 a,
+nav a,
+ul{
+    text-decoration: none;
+    color: inherit;
+    list-style-type: none;
+}
+
+h1,
+nav,
+ul{
+    position: sticky;
+}
+
+.main-wrapper{
+    display: flex;
+    max-width: 1200px;
+    align-items: flex-start;
+    position: relative;
+}
+
+.nav-wrapper{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+}
+
+.info-wrapper,
+.img-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+}
+
+h1{
+    padding-bottom: 1em;
+    white-space: nowrap;
+}
+
+#occupation{
+    order: 2; 
+    padding-top: 3.25em; 
+    padding-bottom: 2.46em;
+}
+
+#projects-heading{
+    order: 3;
+    padding-top: 3.25em; 
+    padding-bottom: 2.46em;
+}
+
+#projects-p{
+    order: 4;
+
+}
+
+#desc{
+    order: 3;
+    max-width: 100%;
+}
+
+nav{
+    padding-right: 10%;
+    padding-left: 15%;
+    padding-top: 5em;
+}
+
+nav a,
+a,
+#projects-p{
+    transition: all 0.25s ease-in-out;
+}
+
+nav a:hover,
+a:hover{
+    opacity: 0.5;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+}
+
+#proj:hover + .dropdown{
+    display: block;
+}
+
+#linked{
+    padding-left: 1%;  
+    padding-top: 20%;  
+}
+
+#js-clock{
+    align-items: end;
+    padding-left: 31.5%;
+}
+
+.img{
+    max-width: 15em;
+    padding: 5%;
+}

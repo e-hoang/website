@@ -7,6 +7,24 @@
 /* Global Styling */
 html {
     color: black;
+    scroll-behavior: smooth;
+}
+
+.socials ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 1%;
+    padding-right: 5%;
+    justify-content: end;
+}
+
+.socials li{
+    padding: 0.5%;
+}
+
+.socials img{
+    width: 2.5em;
 }
 
 body {
@@ -63,7 +81,7 @@ ul {
     top: 0;
     padding-right: 10%;
     padding-left: 15%;
-    padding-top: 5em;
+    padding-top: 2em;
     padding-bottom: 5em;
 }
 
@@ -131,11 +149,6 @@ a:hover {
 #linked {
     padding-left: 1%;
     padding-top: 20%;
-}
-
-#js-clock {
-    align-items: end;
-    padding-left: 31.5%;
 }
 
 .img {

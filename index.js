@@ -1,6 +1,6 @@
 let i = 0;
-let txt = 'Eric Hoang';
-let speed = 225;
+const txt = 'Eric Hoang';
+const speed = 225;
 
 document.addEventListener('DOMContentLoaded', function(){
     typeWriter();

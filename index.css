@@ -16,6 +16,14 @@ body{
     flex-direction: row;
 }
 
+ul a{
+    text-decoration: none;
+}
+
+ul a:hover{
+    opacity: 0.5;
+}
+
 #desc-wrapper{
     display: flex;
     flex-direction: column;
@@ -57,6 +65,10 @@ ul{
     position: absolute; 
     top: 15em; 
     left: 1em;
+}
+
+nav a:hover{
+    opacity: 0.5;
 }
 
 #socials li {
